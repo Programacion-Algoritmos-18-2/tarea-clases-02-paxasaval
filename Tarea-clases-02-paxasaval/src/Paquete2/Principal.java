@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tarea.clases.pkg02.paxasaval;
+package Paquete2;
+
+import tarea.clases.pkg02.paxasaval.*;
 
 /**
  *

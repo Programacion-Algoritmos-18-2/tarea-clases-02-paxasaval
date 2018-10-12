@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tarea.clases.pkg02.paxasaval;
+package paquete3;
 
 /**
  *
@@ -17,8 +17,11 @@ public class Principal {
     public static void main(String[] args) {
         Precio p;
         p=new Precio();
-        p.euros=10.1;
-        System.out.println(p.euros);
+        //Precio m=new Precio("2");
+        Precio n= new Precio(25.9);
+        p.agregar(20.2);
+        System.out.println(p.obtener());
+        System.out.println(n.obtener());
     }
     
 }
